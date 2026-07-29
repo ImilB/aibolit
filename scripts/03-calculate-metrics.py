@@ -4,9 +4,7 @@ import argparse
 import os
 import subprocess
 from pathlib import Path
-
 import pandas as pd
-
 DIR_TO_CREATE = 'target/03'
 TMP_DIR = Path('./_tmp')
 METRICS_COLUMNS = [
